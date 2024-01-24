@@ -1,0 +1,144 @@
+body{
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        height: auto;
+        background: black;
+}
+.obj{
+    transition: background-color 3s ease-in-out;
+    transition: border-radius 3s ease-in-out;
+
+}
+    .boxes {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; 
+        height: 100vh;
+    }
+        
+
+    .obj {
+        width: 320px;
+        height: 320px;
+        background-color: turquoise;
+        margin: 0;
+        display: inline-block;
+        border-radius: 100%;
+        animation-duration: 0.7s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+.one {
+     animation-name: first ;
+ }
+ .two {
+   animation-name: second ;
+ }
+ .three {
+   animation-name: third ;
+ }
+ .four {
+   animation-name: fourth ;
+  }
+  .five {
+    animation-name: fifth ;
+  }
+.six {
+    animation-name: sixth ;
+}
+.seven {
+    animation-name: seventh ;
+}
+.eight {
+    animation-name: eighth ;
+}
+.nine {
+    animation-name: ninth ;
+}
+.ten {
+    animation-name: tenth ;
+}
+@keyframes first {
+    0%   {opacity:0;}
+    90%  {opacity:0.2;}
+    100%  {opacity:1;}
+}
+@keyframes second {
+    0%   {opacity:0}
+    30%  {opacity:0.2;}
+    40%  {opacity:1;}
+    50%  {opacity:0.2;}
+    100% {opacity:0;}
+
+}
+@keyframes third {
+    0%   {opacity:0;}
+    20%  {opacity:0.2;}
+    30%  {opacity:1;}
+    40%  {opacity:0.2;}
+    100% {opacity:0;}
+}
+@keyframes fourth {
+    0%   {opacity:0;}
+    10%   {opacity:0.2;}
+    20%  {opacity:1;}
+    30%  {opacity:0.2;}
+    100% {opacity:0;}
+}
+@keyframes fifth {
+    0%   {opacity:0.2;}
+    10%  {opacity:1;}
+    20%  {opacity:0.2;}
+    100% {opacity:0;}
+}
+@keyframes sixth {
+    0%   {opacity:0;}
+        10%   {opacity:0.2;}
+        20%  {opacity:1;}
+        30%  {opacity:0.2;}
+        100% {opacity:0;}
+}
+@keyframes seventh {
+    0%   {opacity:0;}
+    10%   {opacity:0.2;}
+    20%  {opacity:1;}
+    30%  {opacity:0.2;}
+    100% {opacity:0;}
+}
+@keyframes eighth {
+    0%   {opacity:0;}
+    20%  {opacity:0.2;}
+    30%  {opacity:1;}
+    40%  {opacity:0.2;}
+    100% {opacity:0;}
+}
+@keyframes ninth {
+    0%   {opacity:0;}
+    30%  {opacity:0.2;}
+    40%  {opacity:1;}
+    50%  {opacity:0.2;}
+    100% {opacity:0;}
+}
+@keyframes tenth {
+    0%   {opacity:0;}
+    90%  {opacity:0.2;}
+    100%  {opacity:1;}
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .obj {
+        border-radius: 20%;
+        background-color: pink;
+}
+}
+@media (max-width: 799px) {
+    .obj {
+            background: orange;
+            
+       }
+
+   }
