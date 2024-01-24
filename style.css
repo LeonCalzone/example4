@@ -7,7 +7,9 @@ body{
 }
 .obj{
     transition: background-color 3s ease-in-out;
-    transition: border-radius 3s ease-in-out;
+    transition: border-radius 4s ease-in-out;
+    transition: width, height .5s ease-in-out;
+
 
 }
     .boxes {
@@ -21,8 +23,8 @@ body{
         
 
     .obj {
-        width: 320px;
-        height: 320px;
+        width: 120px;
+        height: 120px;
         background-color: turquoise;
         margin: 0;
         display: inline-block;
@@ -129,15 +131,26 @@ body{
     100%  {opacity:1;}
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 1200px) and (max-width: 1500px)  {
     .obj {
-        border-radius: 20%;
-        background-color: salmon;
+       background-color: honeydew;
+       width: 320px;
+       height: 320px;
+}
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+    .obj {
+        width: 220px;
+        height: 220px;
+        background-color: pink;
 }
 }
 @media (max-width: 799px) {
     .obj {
-            background: orange;
+        width: 120px;
+        height: 120px;
+        border-radius: 20%;
+         background-color: orange;
             
        }
 
