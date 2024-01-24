@@ -132,7 +132,7 @@ body{
 @media (min-width: 600px) and (max-width: 900px) {
     .obj {
         border-radius: 20%;
-        background-color: pink;
+        background-color: salmon;
 }
 }
 @media (max-width: 799px) {
